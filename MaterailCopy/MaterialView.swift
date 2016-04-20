@@ -1,5 +1,5 @@
 //
-//  ShadowView.swift
+//  MaterialView.swift
 //  MaterailCopy
 //
 //  Created by User on 4/7/16.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ShadowView: UIView {
+class MaterialView: UIView {
     override func awakeFromNib() {
         layer.cornerRadius = 2.0
 

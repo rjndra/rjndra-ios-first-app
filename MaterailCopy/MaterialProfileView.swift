@@ -14,7 +14,7 @@ class MaterialProfileView: UIImageView {
     override func awakeFromNib() {
          super.awakeFromNib()
         
-        layer.cornerRadius = 15.0
+        layer.cornerRadius = 25.0
         layer.masksToBounds = true 
     }
 }

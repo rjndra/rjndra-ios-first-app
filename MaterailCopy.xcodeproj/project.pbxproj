@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7500D54F1C6BACBD285666A7 /* Pods_MaterailCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2C970186DB5264D16ED35E /* Pods_MaterailCopy.framework */; };
 		CE5544461CB626AB00AD549D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5544451CB626AB00AD549D /* AppDelegate.swift */; };
 		CE5544481CB626AB00AD549D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5544471CB626AB00AD549D /* ViewController.swift */; };
 		CE55444B1CB626AB00AD549D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5544491CB626AB00AD549D /* Main.storyboard */; };
 		CE55444D1CB626AB00AD549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE55444C1CB626AB00AD549D /* Assets.xcassets */; };
 		CE5544501CB626AB00AD549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55444E1CB626AB00AD549D /* LaunchScreen.storyboard */; };
+		CE55445C1CB62BA800AD549D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55445B1CB62BA800AD549D /* MaterialView.swift */; };
+		CE5544611CB6304400AD549D /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE55445D1CB6304400AD549D /* NotoSans-Bold.ttf */; };
+		CE5544621CB6304400AD549D /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE55445E1CB6304400AD549D /* NotoSans-BoldItalic.ttf */; };
+		CE5544631CB6304400AD549D /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE55445F1CB6304400AD549D /* NotoSans-Italic.ttf */; };
+		CE5544641CB6304400AD549D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5544601CB6304400AD549D /* NotoSans-Regular.ttf */; };
+		CE5544671CB6334C00AD549D /* Cosntants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5544661CB6334C00AD549D /* Cosntants.swift */; };
+		CE55446B1CB63ED100AD549D /* MaterialButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55446A1CB63ED100AD549D /* MaterialButtom.swift */; };
+		CE55446D1CB63EDF00AD549D /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55446C1CB63EDF00AD549D /* MaterialTextField.swift */; };
+		CEB214041CBD031100260F91 /* MaterialProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB214031CBD031100260F91 /* MaterialProfileView.swift */; };
+		CECBEE481CB7787200E9C2F8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEE471CB7787200E9C2F8 /* PostCell.swift */; };
+		CECBEE4A1CB7794100E9C2F8 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEE491CB7794100E9C2F8 /* PostVC.swift */; };
+		CECBEE4C1CB7A82400E9C2F8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEE4B1CB7A82400E9C2F8 /* Post.swift */; };
+		CEF0170C1CB6543700535CA7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF017091CB6543700535CA7 /* Bolts.framework */; };
+		CEF0170D1CB6543700535CA7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF0170A1CB6543700535CA7 /* FBSDKCoreKit.framework */; };
+		CEF0170E1CB6543700535CA7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF0170B1CB6543700535CA7 /* FBSDKLoginKit.framework */; };
+		CEF017101CB6561700535CA7 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF0170F1CB6561700535CA7 /* FBSDKMessengerShareKit.framework */; };
+		CEF017151CB6564300535CA7 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF017121CB6564300535CA7 /* FBAudienceNetwork.framework */; };
+		CEF017161CB6564300535CA7 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF017131CB6564300535CA7 /* FBSDKShareKit.framework */; };
+		CEF017191CB664FE00535CA7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF017181CB664FE00535CA7 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1715A210B969BE134C0CD2F2 /* Pods-MaterailCopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterailCopy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterailCopy/Pods-MaterailCopy.debug.xcconfig"; sourceTree = "<group>"; };
+		CC2C970186DB5264D16ED35E /* Pods_MaterailCopy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterailCopy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5544421CB626AA00AD549D /* MaterailCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterailCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5544451CB626AB00AD549D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5544471CB626AB00AD549D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,26 @@
 		CE55444C1CB626AB00AD549D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE55444F1CB626AB00AD549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5544511CB626AB00AD549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE55445B1CB62BA800AD549D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		CE55445D1CB6304400AD549D /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		CE55445E1CB6304400AD549D /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE55445F1CB6304400AD549D /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		CE5544601CB6304400AD549D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		CE5544661CB6334C00AD549D /* Cosntants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cosntants.swift; sourceTree = "<group>"; };
+		CE55446A1CB63ED100AD549D /* MaterialButtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButtom.swift; sourceTree = "<group>"; };
+		CE55446C1CB63EDF00AD549D /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		CEB214031CBD031100260F91 /* MaterialProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialProfileView.swift; sourceTree = "<group>"; };
+		CECBEE471CB7787200E9C2F8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CECBEE491CB7794100E9C2F8 /* PostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		CECBEE4B1CB7A82400E9C2F8 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CEF017091CB6543700535CA7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CEF0170A1CB6543700535CA7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CEF0170B1CB6543700535CA7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CEF0170F1CB6561700535CA7 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		CEF017121CB6564300535CA7 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		CEF017131CB6564300535CA7 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CEF017181CB664FE00535CA7 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EB61225806F09B468276C310 /* Pods-MaterailCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterailCopy.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterailCopy/Pods-MaterailCopy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7500D54F1C6BACBD285666A7 /* Pods_MaterailCopy.framework in Frameworks */,
+				CEF0170D1CB6543700535CA7 /* FBSDKCoreKit.framework in Frameworks */,
+				CEF017101CB6561700535CA7 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				CEF017161CB6564300535CA7 /* FBSDKShareKit.framework in Frameworks */,
+				CEF017151CB6564300535CA7 /* FBAudienceNetwork.framework in Frameworks */,
+				CEF0170E1CB6543700535CA7 /* FBSDKLoginKit.framework in Frameworks */,
+				CEF0170C1CB6543700535CA7 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F76D7A8F224145B415AA26D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1715A210B969BE134C0CD2F2 /* Pods-MaterailCopy.debug.xcconfig */,
+				EB61225806F09B468276C310 /* Pods-MaterailCopy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFFC3F7CAB6CE33D3B9ACD44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF017121CB6564300535CA7 /* FBAudienceNetwork.framework */,
+				CEF017131CB6564300535CA7 /* FBSDKShareKit.framework */,
+				CEF0170F1CB6561700535CA7 /* FBSDKMessengerShareKit.framework */,
+				CEF017091CB6543700535CA7 /* Bolts.framework */,
+				CEF0170A1CB6543700535CA7 /* FBSDKCoreKit.framework */,
+				CEF0170B1CB6543700535CA7 /* FBSDKLoginKit.framework */,
+				CC2C970186DB5264D16ED35E /* Pods_MaterailCopy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE5544391CB626AA00AD549D = {
 			isa = PBXGroup;
 			children = (
 				CE5544441CB626AB00AD549D /* MaterailCopy */,
 				CE5544431CB626AA00AD549D /* Products */,
+				9F76D7A8F224145B415AA26D /* Pods */,
+				AFFC3F7CAB6CE33D3B9ACD44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +128,75 @@
 		CE5544441CB626AB00AD549D /* MaterailCopy */ = {
 			isa = PBXGroup;
 			children = (
+				CEF017171CB664DA00535CA7 /* Services */,
+				CE5544651CB6333E00AD549D /* Constants */,
+				CE55445A1CB62B8700AD549D /* Resources */,
+				CE5544591CB62B8000AD549D /* Controller */,
+				CE5544581CB62B3800AD549D /* Modal */,
+				CE5544571CB62B3300AD549D /* View */,
 				CE5544451CB626AB00AD549D /* AppDelegate.swift */,
-				CE5544471CB626AB00AD549D /* ViewController.swift */,
 				CE5544491CB626AB00AD549D /* Main.storyboard */,
 				CE55444C1CB626AB00AD549D /* Assets.xcassets */,
 				CE55444E1CB626AB00AD549D /* LaunchScreen.storyboard */,
 				CE5544511CB626AB00AD549D /* Info.plist */,
 			);
 			path = MaterailCopy;
+			sourceTree = "<group>";
+		};
+		CE5544571CB62B3300AD549D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE55445B1CB62BA800AD549D /* MaterialView.swift */,
+				CE55446A1CB63ED100AD549D /* MaterialButtom.swift */,
+				CE55446C1CB63EDF00AD549D /* MaterialTextField.swift */,
+				CEB214031CBD031100260F91 /* MaterialProfileView.swift */,
+				CECBEE471CB7787200E9C2F8 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE5544581CB62B3800AD549D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CECBEE4B1CB7A82400E9C2F8 /* Post.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		CE5544591CB62B8000AD549D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE5544471CB626AB00AD549D /* ViewController.swift */,
+				CECBEE491CB7794100E9C2F8 /* PostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CE55445A1CB62B8700AD549D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE55445D1CB6304400AD549D /* NotoSans-Bold.ttf */,
+				CE55445E1CB6304400AD549D /* NotoSans-BoldItalic.ttf */,
+				CE55445F1CB6304400AD549D /* NotoSans-Italic.ttf */,
+				CE5544601CB6304400AD549D /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE5544651CB6333E00AD549D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE5544661CB6334C00AD549D /* Cosntants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		CEF017171CB664DA00535CA7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEF017181CB664FE00535CA7 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE5544541CB626AB00AD549D /* Build configuration list for PBXNativeTarget "MaterailCopy" */;
 			buildPhases = (
+				9E23FF432B4D7125B49AE9C3 /* Check Pods Manifest.lock */,
 				CE55443E1CB626AA00AD549D /* Sources */,
 				CE55443F1CB626AA00AD549D /* Frameworks */,
 				CE5544401CB626AA00AD549D /* Resources */,
+				35A50B3D55AE2C851F06B952 /* Embed Pods Frameworks */,
+				EA240ACD917F971262ED61CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +261,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5544611CB6304400AD549D /* NotoSans-Bold.ttf in Resources */,
 				CE5544501CB626AB00AD549D /* LaunchScreen.storyboard in Resources */,
+				CE5544621CB6304400AD549D /* NotoSans-BoldItalic.ttf in Resources */,
+				CE5544631CB6304400AD549D /* NotoSans-Italic.ttf in Resources */,
 				CE55444D1CB626AB00AD549D /* Assets.xcassets in Resources */,
 				CE55444B1CB626AB00AD549D /* Main.storyboard in Resources */,
+				CE5544641CB6304400AD549D /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35A50B3D55AE2C851F06B952 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterailCopy/Pods-MaterailCopy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E23FF432B4D7125B49AE9C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA240ACD917F971262ED61CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterailCopy/Pods-MaterailCopy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE55443E1CB626AA00AD549D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE55446D1CB63EDF00AD549D /* MaterialTextField.swift in Sources */,
+				CEF017191CB664FE00535CA7 /* DataService.swift in Sources */,
+				CE55446B1CB63ED100AD549D /* MaterialButtom.swift in Sources */,
+				CE55445C1CB62BA800AD549D /* MaterialView.swift in Sources */,
+				CE5544671CB6334C00AD549D /* Cosntants.swift in Sources */,
 				CE5544481CB626AB00AD549D /* ViewController.swift in Sources */,
+				CECBEE4A1CB7794100E9C2F8 /* PostVC.swift in Sources */,
 				CE5544461CB626AB00AD549D /* AppDelegate.swift in Sources */,
+				CECBEE481CB7787200E9C2F8 /* PostCell.swift in Sources */,
+				CEB214041CBD031100260F91 /* MaterialProfileView.swift in Sources */,
+				CECBEE4C1CB7A82400E9C2F8 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +449,13 @@
 		};
 		CE5544551CB626AB00AD549D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1715A210B969BE134C0CD2F2 /* Pods-MaterailCopy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MaterailCopy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajendra.MaterailCopy;
@@ -261,8 +465,13 @@
 		};
 		CE5544561CB626AB00AD549D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB61225806F09B468276C310 /* Pods-MaterailCopy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MaterailCopy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajendra.MaterailCopy;
@@ -289,6 +498,7 @@
 				CE5544561CB626AB00AD549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
